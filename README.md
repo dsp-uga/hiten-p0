@@ -11,6 +11,13 @@ function top(40) creates a list of top most frequent words from sorted elements.
 Thus, stopwords variable was broadcsted and then filtered out from RDD
 
 #Project C was to remove punctuation.
-Python punctuation
+Python punctuation library was import
+ x.lstrip(punctuation)) #remove leading punctuaion
+ x.rstrip(punctuation)) #remove trailing punctuaion
 
+#Project D
+
+TF-IDF portion, consider a generalization of the key-value paradigm:
+keep the words as keys in the RDD, but instead of a single count for the value, store an
+array of counts (one for each document).
 
