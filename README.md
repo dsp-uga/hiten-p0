@@ -26,3 +26,6 @@ TF-IDF portion, consider a generalization of the key-value paradigm:
 keep the words as keys in the RDD, but instead of a single count for the value, store an
 array of counts (one for each document).
 
+I tried to create array as mentioned in above.. but failed generating correct output..
+*Still working on Project D*
+
