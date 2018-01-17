@@ -14,6 +14,11 @@ Thus, stopwords variable was broadcsted and then filtered out from RDD
 Python punctuation library was import
  x.lstrip(punctuation)) #remove leading punctuaion
  x.rstrip(punctuation)) #remove trailing punctuaion
+ 
+ sometimes it shows sc is not defined as output...
+ I just igore and restart the server.
+ tried sc.stop() , but it was not working.
+ This error is displayed in Project C, restart server works
 
 #Project D
 
